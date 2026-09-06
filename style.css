@@ -1,0 +1,49 @@
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.display {
+  text-align: right;
+  font-size: 50px;
+  border: 1px solid;
+  padding: 10px;
+  margin: 8px;
+}
+
+.entry_pad {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+button {
+  padding: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: grey;
+  color: white;
+  font-weight: bolder;
+}
+
+.operator {
+  background-color: antiquewhite;
+  color: black;
+}
+
+.equals {
+  background-color: rgb(178, 178, 241);
+  color: black;
+}
+
+.clear {
+  background-color: tomato;
+}
+.all_clear {
+  background-color: rgb(221, 72, 46);
+}
+
+main {
+  max-width: 500px;
+  margin: auto;
+}
