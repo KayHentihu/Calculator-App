@@ -1,49 +1,118 @@
 # Calculator App
 
-A beginner-friendly calculator web application built as a learning project.
+A beginner web development project built to practice HTML, CSS, JavaScript, DOM manipulation, event handling, and basic calculator logic.
 
-## 📌 About
+## About
 
-This project is created to practice the fundamentals of web development, including:
+This project is a simple calculator web application inspired by the Calculator challenge from the App Ideas Collection.
 
-* HTML
-* CSS
-* JavaScript
-* User interactions and events
-* Basic application logic
+The main goal of this project is to practice building an interactive web application using vanilla HTML, CSS, and JavaScript without relying on external libraries.
 
-## ✨ Features
+## Features
 
-* Basic arithmetic operations
-* Number input
-* Clear (`C`) button
-* All Clear (`AC`) button
-* Error handling for numbers exceeding the maximum limit
+- Basic arithmetic operations:
+  - Addition (+)
+  - Subtraction (-)
+  - Division (/)
+- Number input from 0 to 9
+- Maximum 8-digit input
+- Clear (C) button
+- All Clear (AC) button
+- Equal (=) button
+- Calculation using previous results
+- Chained calculations
+- Error handling for results exceeding 8 digits
+- Prevents further input after an error until the calculator is cleared
+- Division by zero error handling
+- No `eval()` used
 
-More features will be added as the project develops.
+## Technologies
 
-## 🛠️ Technologies
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
 
-* HTML
-* CSS
-* JavaScript
+## Learning Goals
 
-## 🎯 Learning Goals
+Through this project, I am practicing:
 
-Through this project, I want to learn how to:
+- HTML page structure
+- CSS styling
+- CSS Grid
+- JavaScript DOM manipulation
+- `querySelector()`
+- `querySelectorAll()`
+- Event listeners
+- Event objects
+- `classList.contains()`
+- Conditional statements
+- Loops
+- Variables and application state
+- Type conversion using `Number()`
+- String manipulation
+- Basic arithmetic logic
+- Error handling
+- Building interactive web applications with vanilla JavaScript
 
-* Build a basic user interface with HTML
-* Style a web application with CSS
-* Handle user interactions with JavaScript
-* Manage application state
-* Practice Git and GitHub workflow
+## Project Structure
 
-## 🚧 Project Status
+```text
+calculator-app/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
 
-**In Progress**
+## File Description
 
-This project is part of my learning journey and will be improved gradually.
+### `index.html`
 
-## 📖 Reference
+Contains the structure of the calculator interface, including the display and calculator buttons.
 
-This project is based on the Calculator challenge from [App Ideas Collection](https://github.com/florinpop17/app-ideas).
+### `style.css`
+
+Contains the calculator layout and visual styling using CSS.
+
+### `script.js`
+
+Contains the calculator logic, event handling, input validation, arithmetic operations, state management, and error handling.
+
+### `README.md`
+
+Contains the project documentation, features, technologies, and learning goals.
+
+## Project Status
+
+🟢 Core calculator functionality is complete.
+
+The current version implements the main calculator requirements using vanilla JavaScript.
+
+### Future Improvements
+
+- Positive/negative number toggle (+/-)
+- Decimal number support
+- Maximum 3 decimal places
+- Improved UI/UX
+- Responsive design
+- Additional visual feedback for calculator states
+
+## What I Learned
+
+This project helped me understand how JavaScript interacts with HTML elements and responds to user actions.
+
+One of the main concepts practiced in this project is application state management. The calculator stores the first number, selected operator, and second number before performing a calculation.
+
+I also practiced handling different button actions using event listeners, conditional statements, and DOM manipulation.
+
+The project helped me understand that building a small application is not only about writing code, but also about thinking through different user interactions and edge cases.
+
+## Reference
+
+This project was inspired by the Calculator challenge from the App Ideas Collection.
+
+## Author
+
+**Kay Hentihu**
+
+GitHub: [KayHentihu](https://github.com/KayHentihu)
